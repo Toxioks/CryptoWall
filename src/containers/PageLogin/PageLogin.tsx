@@ -86,7 +86,9 @@ const PageLogin: FC<PageLoginProps> = ({ className = "" }) => {
                   Forgot password?
                 </NcLink>
               </span>
-              <Input type="password" className="mt-1" />
+              <Input type="password"
+                     placeholder="**********"
+                     className="mt-1" />
             </label>
             <ButtonPrimary type="submit">Continue</ButtonPrimary>
           </form>

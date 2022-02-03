@@ -19,7 +19,7 @@ const PageForgotPass: FC<PageForgotPassProps> = ({ className = "" }) => {
         <title>Forgot Password | CryptoWall</title>
       </Helmet>
       <LayoutPage
-        subHeading="We will sent reset password instruction to your email"
+        subHeading="We will send reset password instructions to the email provided"
         headingEmoji="🔐"
         heading="Forgot password"
       >

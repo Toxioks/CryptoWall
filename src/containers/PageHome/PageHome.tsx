@@ -79,7 +79,8 @@ const PageHome: React.FC = () => {
         <div className="container ">
 
           {/* === SECTION 14 === */}
-          <SectionSubscribe2 className="pt-16 lg:pt-28" />
+          <SectionSubscribe2 className="pt-16 lg:pt-28"
+          />
 
           {/* === SECTION 17 === */}
           <SectionLatestPosts

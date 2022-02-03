@@ -83,7 +83,9 @@ const PageSignUp: FC<PageSignUpProps> = ({ className = "" }) => {
               <span className="flex justify-between items-center text-neutral-800 dark:text-neutral-200">
                 Password
               </span>
-              <Input type="password" className="mt-1" />
+              <Input type="password"
+                     placeholder="**********"
+                     className="mt-1" />
             </label>
             <ButtonPrimary type="submit">Continue</ButtonPrimary>
           </form>
