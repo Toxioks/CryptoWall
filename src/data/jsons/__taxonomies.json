@@ -1,0 +1,163 @@
+[
+  {
+    "id": 1,
+    "name": "NFT",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "",
+    "count": 13,
+    "color": "indigo"
+  },
+  {
+    "id": 2,
+    "name": "CryptoCurrency",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "",
+    "count": 16,
+    "color": "red"
+  },
+  {
+    "id": 3,
+    "name": "CryptoWall",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "",
+    "count": 15,
+    "color": "yellow"
+  },
+  {
+    "id": 4,
+    "name": "Software Engineering",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "",
+    "count": 21,
+    "color": "pink"
+  },
+  {
+    "id": 5,
+    "name": "Students",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "",
+    "count": 16,
+    "color": "pink"
+  },
+  {
+    "id": 6,
+    "name": "FinTech",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "",
+    "count": 25,
+    "color": "blue"
+  },
+  {
+    "id": 7,
+    "name": "Jobs",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "",
+    "count": 14,
+    "color": "gray"
+  },
+  {
+    "id": 8,
+    "name": "Hardware",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "",
+    "count": 4,
+    "color": "purple"
+  },
+  {
+    "id": 9,
+    "name": "Setups",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "",
+    "count": 7,
+    "color": "red"
+  },
+  {
+    "id": 10,
+    "name": "Financial Advice",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "",
+    "count": 26,
+    "color": "blue"
+  },
+  {
+    "id": 11,
+    "name": "Upcoming",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "",
+    "count": 20,
+    "color": "indigo"
+  },
+  {
+    "id": 12,
+    "name": "Memes",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "",
+    "count": 22,
+    "color": "indigo"
+  },
+  {
+    "id": 13,
+    "name": "Setups",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "",
+    "count": 15,
+    "color": "green"
+  },
+  {
+    "id": 14,
+    "name": "Automotive",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "",
+    "count": 9,
+    "color": "green"
+  },
+  {
+    "id": 15,
+    "name": "Travel",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "",
+    "count": 26,
+    "color": "blue"
+  },
+  {
+    "id": 16,
+    "name": "Design",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "",
+    "count": 15,
+    "color": "indigo"
+  },
+  {
+    "id": 17,
+    "name": "Bitcoin",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "",
+    "count": 27,
+    "color": "red"
+  },
+  {
+    "id": 18,
+    "name": "Ethereum",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "",
+    "count": 25,
+    "color": "pink"
+  },
+  {
+    "id": 19,
+    "name": "Lifestyle",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "",
+    "count": 18,
+    "color": "green"
+  },
+
+  {
+    "id": 20,
+    "name": "Security",
+    "href": "/archive/the-demo-archive-slug",
+    "thumbnail": "",
+    "count": 25,
+    "color": "gray"
+  }
+]
