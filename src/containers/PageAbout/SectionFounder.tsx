@@ -13,7 +13,7 @@ const FOUNDER_DEMO: People[] = [
   {
     id: "1",
     name: `Daniel Kramer`,
-    job: "Co-founder & Front-End Engineer",
+    job: "Co-founder, Project Manager & Front-End Engineer",
     avatar:
       "https://media-exp1.licdn.com/dms/image/C4D03AQGcFESmHic1Rg/profile-displayphoto-shrink_800_800/0/1642187900079?e=1649289600&v=beta&t=yuDlwFBiRUcb4DD1peuTc9xsbsrvPpi66FEsUe7D1FY",
   },
@@ -27,7 +27,7 @@ const FOUNDER_DEMO: People[] = [
   {
     id: "3",
     name: `Lewis Dickinson`,
-    job: "Co-founder, Software Engineer",
+    job: "Co-founder, Creative Director & Software Engineer",
     avatar:
       "https://media-exp1.licdn.com/dms/image/C4E35AQFzqzT8jLEjgg/profile-framedphoto-shrink_800_800/0/1610475768120?e=1643914800&v=beta&t=M9bEHVTZUYCvzmMtcSBYY1iwc58nRGaQdFMAtabxSwY",
   },
