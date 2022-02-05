@@ -5,7 +5,6 @@
   "homepage": "",
   "dependencies": {
     "@craco/craco": "^6.1.2",
-    "@emailjs/browser": "^3.4.0",
     "@glidejs/glide": "^3.4.1",
     "@headlessui/react": "^1.2.0",
     "@heroicons/react": "^1.0.1",
