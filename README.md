@@ -4,6 +4,12 @@ The cryptoWall Project uses facebook create react app bootstrap.
 
 In the project directory, Follow these steps to enable running of the project.
 
+### Dan's Rules
+
+Clone the project and commit & push changes to a branch. Minor changes can be merged with master. However, functionality changes must be merged as a group. 
+
+YOU BREAK IT YOU FIX IT 
+
 ### 1 - Install react and plugins:
 
 #### `npm install` or `yarn`
