@@ -8,6 +8,7 @@ import Textarea from "components/Textarea/Textarea";
 import { Helmet } from "react-helmet";
 import SectionSubscribe2 from "components/SectionSubscribe2/SectionSubscribe2";
 
+
 export interface PageContactProps {
   className?: string;
 }
@@ -15,7 +16,7 @@ export interface PageContactProps {
 const info = [
   {
     title: "🗺 ADDRESS",
-    desc: "CryptoWall HQ James Graham",
+    desc: "CryptoWall, James Graham",
   },
   {
     title: "💌 EMAIL",
@@ -23,7 +24,7 @@ const info = [
   },
   {
     title: "☎ PHONE",
-    desc: "000-123-456-7890",
+    desc: "0113 23456",
   },
 ];
 
@@ -34,7 +35,7 @@ const PageContact: FC<PageContactProps> = ({ className = "" }) => {
         <title>Contact | CryptoWall</title>
       </Helmet>
       <LayoutPage
-        subHeading="Drop us message and we will get back for you."
+        subHeading="Send us a message and one of our specialists will get back to you"
         headingEmoji=""
         heading="Contact us"
       >

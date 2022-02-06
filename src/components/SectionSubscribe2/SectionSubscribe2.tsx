@@ -18,19 +18,19 @@ const SectionSubscribe2: FC<SectionSubscribe2Props> = ({ className = "" }) => {
       <div className="flex-shrink-0 mb-14 lg:mb-0 lg:mr-10 lg:w-2/5">
         <h2 className="font-semibold text-4xl">Join our newsletter 🎉</h2>
         <span className="block mt-6 text-neutral-500 dark:text-neutral-400">
-          Be the first to hear the latest news on the CryptoWall
+          Never miss out on the latest Web3 news
         </span>
         <ul className="space-y-5 mt-10">
           <li className="flex items-center space-x-4">
             <Badge name="01" />
             <span className="font-medium text-neutral-700 dark:text-neutral-300">
-              Get discounted membership to the wall
+              Get discounted membership to CryptoWall
             </span>
           </li>
           <li className="flex items-center space-x-4">
             <Badge color="red" name="02" />
             <span className="font-medium text-neutral-700 dark:text-neutral-300">
-              Get premium insights from our specialist advisors
+              Get premium insights from our specialist team
             </span>
           </li>
         </ul>

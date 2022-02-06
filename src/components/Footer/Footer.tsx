@@ -35,10 +35,10 @@ const widgetMenus: WidgetFooterMenu[] = [
   },
   {
     id: "4",
-    title: "Community",
+    title: "CryptoWall",
     menus: [
-      { href: "#", label: "About" },
-      { href: "#", label: "Contact" },
+      { href: "/about", label: "About Us" },
+      { href: "/contact", label: "Contact" },
     ],
   },
 ];
