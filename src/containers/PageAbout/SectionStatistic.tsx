@@ -10,7 +10,7 @@ export interface Statistic {
 const FOUNDER_DEMO: Statistic[] = [
   {
     id: "1",
-    heading: "5 founders, 4 Nationalities",
+    heading: "4 founders, 4 Nationalities",
     subHeading:
       "Our diverse team of founders represent 4 nationalities",
   },
