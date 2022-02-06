@@ -19,11 +19,11 @@ const info = [
     desc: "CryptoWall, James Graham",
   },
   {
-    title: "💌 EMAIL",
+    title: "✉ EMAIL",
     desc: "Contact@CryptoWall.com",
   },
   {
-    title: "☎ PHONE",
+    title: "📞 PHONE",
     desc: "0113 23456",
   },
 ];
