@@ -173,8 +173,65 @@ const singleChildrenMenus: NavItemType = {
   ],
 };
 
-const demoChildMenus: NavItemType[] = [
+const contactChildMenus: NavItemType[] = [
 
+  {
+    id: ncNanoId(),
+    href: "/contact",
+    name: "Contact us",
+  },
+  {
+    id: ncNanoId(),
+    name: "FAQ",
+    href: "/single/this-is-single-slug-2",
+  },
+];
+
+const homeChildMenus: NavItemType[] = [
+
+
+];
+
+const featuredChildMenus: NavItemType[] = [
+
+  {
+    id: ncNanoId(),
+    href: "/single-template-3/this-is-single-slug-3",
+    name: "Featured #1",
+  },
+  {
+    id: ncNanoId(),
+    href: "/single-template-3/this-is-single-slug-3",
+    name: "Featured #2",
+  },
+  {
+    id: ncNanoId(),
+    href: "/single-template-3/this-is-single-slug-3",
+    name: "Featured #3",
+  },
+];
+
+const foryouChildMenus: NavItemType[] = [
+
+  {
+    id: ncNanoId(),
+    href: "/author/the-demo-author-slug",
+    name: "For you",
+  },
+  {
+    id: ncNanoId(),
+    href: "/subscription",
+    name: "Subscription",
+  },
+
+];
+const aboutChildMenus: NavItemType[] = [
+
+  {
+    id: ncNanoId(),
+    href: "/about",
+    name: "About",
+  },
 
 ];
 
@@ -204,20 +261,54 @@ export const NAVIGATION_DEMO: NavItemType[] = [
     href: "/",
     name: "Home",
     type: "none",
-    children: demoChildMenus,
+    children: homeChildMenus,
   },
-
+  {
+    id: ncNanoId(),
+    href: "/about",
+    name: "About us",
+    type: "dropdown",
+    children: aboutChildMenus,
+  },
+  {
+    id: ncNanoId(),
+    href: "/single-template-3/this-is-single-slug-3",
+    name: "Featured",
+    type: "dropdown",
+    children: featuredChildMenus,
+  },
+  {
+    id: ncNanoId(),
+    href: "/author/the-demo-author-slug",
+    name: "For You",
+    type: "dropdown",
+    children: foryouChildMenus,
+  },
+  {
+    id: ncNanoId(),
+    href: "/dashboard",
+    name: "User",
+    type: "dropdown",
+    children: dashboardChildMenus,
+  },
+  {
+    id: ncNanoId(),
+    href: "/contact",
+    name: "Support",
+    type: "dropdown",
+    children: contactChildMenus,
+  },
   {
     id: ncNanoId(),
     href: "#",
-    name: "pages",
+    name: "pages #1 (Temporary)",
     type: "dropdown",
     children: templateChilds,
   },
   {
     id: ncNanoId(),
     href: "#",
-    name: "Other pages",
+    name: "Pages #2 (Temporary)",
     type: "dropdown",
     children: otherPageChildMenus,
   },

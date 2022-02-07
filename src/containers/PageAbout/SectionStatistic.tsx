@@ -10,20 +10,20 @@ export interface Statistic {
 const FOUNDER_DEMO: Statistic[] = [
   {
     id: "1",
-    heading: "4 founders, 4 Nationalities",
+    heading: "4 FOUNDERS, 4 NATIONALITIES",
     subHeading:
-      "Our diverse team of founders represent 4 nationalities",
+      "Our diverse team of founders represent 4 nationalities, we understand what it means to involve all ethnic backgrounds, genders and orientations.",
   },
   {
     id: "2",
-    heading: "1000+ Hours of Work",
-    subHeading: "Invested into making the community the best it can be",
+    heading: "1000+ HOURS OF WORK",
+    subHeading: "Endless hours have been invested into making the community what it is today and always building on top of what we've always achieved. ",
   },
   {
     id: "3",
-    heading: "8+ Years of Experience",
+    heading: "A DECADE OF EXPERIENCE",
     subHeading:
-      "Between us we have over 8 years of experience ",
+      "The team here at CryptoWall have a reptable amount of experience and are all reputable individuals.",
   },
 ];
 
@@ -35,8 +35,7 @@ const SectionStatistic: FC<SectionStatisticProps> = ({ className = "" }) => {
   return (
     <div className={`nc-SectionStatistic relative ${className}`}>
       <Heading
-        desc="We’re impartial and independent, and every day we create distinctive,
-          world-class articles for the CryptoWall community"
+        desc=""
       >
         🚀 Fast Facts
       </Heading>
@@ -44,7 +43,7 @@ const SectionStatistic: FC<SectionStatisticProps> = ({ className = "" }) => {
         {FOUNDER_DEMO.map((item) => (
           <div
             key={item.id}
-            className="p-6 bg-white rounded-2xl dark:border-neutral-800"
+            className="p-6 bg-grey rounded-2xl dark:border-neutral-800"
           >
             <h3 className="text-2xl font-semibold leading-none text-neutral-900 md:text-4xl dark:text-neutral-200">
               {item.heading}

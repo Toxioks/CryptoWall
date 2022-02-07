@@ -28,9 +28,9 @@ const PageAbout: FC<PageAboutProps> = ({ className = "" }) => {
       <div className="container py-16 lg:py-28 space-y-16 lg:space-y-28">
         <SectionHero
           rightImg={rightImg}
-          heading="👋 About Us."
+          heading="👋 About Us"
           btnText=""
-          subHeading="CryptoWall is a community focussed project founded in 2022. This initiative was founded by a group of students at Leeds Beckett University to create an accessible space for all.  "
+          subHeading="CryptoWall is a community focussed project founded in 2022 to create an accessible space for all. Every day we aim to achieve create distinctive, world-class articles for the CryptoWall community.  "
         />
 
         <SectionFounder />
