@@ -114,7 +114,7 @@ const PageSubcription: FC<PageSubcriptionProps> = ({ className = "" }) => {
       data-nc-id="PageSubcription"
     >
       <LayoutPage
-        subHeading="Subscribe to gain exclusive access to the fastest growing Web3 community"
+        subHeading="Gain exclusive access to the fastest growing Web3 community"
         headingEmoji="💎"
         heading="Subscription"
       >
