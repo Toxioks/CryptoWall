@@ -52,7 +52,7 @@ const widgetMenus: WidgetFooterMenu[] = [
     id: "4",
     title: "Crypto",
     menus: [
-      { href: "https://opensea.io/", label: "Opensea" },
+      {href: "https://opensea.io/ ", label: "Opensea" },
       { href: "https://magiceden.io/", label: "Magic Eden" },
       { href: "https://bitcoin.org/en/", label: "Bitcoin" },
       { href: "https://ethereum.org/en/", label: "Ethereum" },

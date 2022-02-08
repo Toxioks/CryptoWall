@@ -32,10 +32,8 @@ const CommentCardLikeReplyContainer: FC<CommentCardLikeReplyContainerProps> = ({
     if (recentLikeds.includes(id)) {
       return true;
     }
-    if (like.isLiked && !recentRemoveds.includes(id)) {
-      return true;
-    }
-    return false;
+    return like.isLiked && !recentRemoveds.includes(id);
+
   };
 
   const getLikeCount = (): number => {

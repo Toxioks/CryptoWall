@@ -27,7 +27,7 @@ const PostActionDropdown: FC<PostActionDropdownProps> = ({
     },
     {
       id: "commentThisArticle",
-      name: "Comment this article",
+      name: "Make a Comment",
       icon: "las la-comment-dots",
     },
     {

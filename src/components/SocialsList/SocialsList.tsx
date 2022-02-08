@@ -12,11 +12,11 @@ const socialsDemo: SocialType[] = [
     id: "Facebook",
     name: "Facebook",
     icon: "lab la-facebook-square",
-    href: "#",
+    href: "https://facebook.com",
   },
-  { id: "Twitter", name: "Twitter", icon: "lab la-twitter", href: "#" },
-  { id: "Youtube", name: "Youtube", icon: "lab la-youtube", href: "#" },
-  { id: "Instagram", name: "Instagram", icon: "lab la-instagram", href: "#" },
+  { id: "Twitter", name: "Twitter", icon: "lab la-twitter", href: "https://twitter.com" },
+  { id: "Youtube", name: "Youtube", icon: "lab la-youtube", href: "https://youtube.com" },
+  { id: "Instagram", name: "Instagram", icon: "lab la-instagram", href: "https://instagram.com" },
 ];
 
 export const SOCIALS_2 = socialsDemo;

@@ -21,10 +21,8 @@ const BookmarkContainer: React.FC<BookmarkContainerProps> = (props) => {
     if (recentSaveds.includes(postId)) {
       return true;
     }
-    if (initBookmarked && !recentRemoveds.includes(postId)) {
-      return true;
-    }
-    return false;
+    return initBookmarked && !recentRemoveds.includes(postId);
+
   };
 
   const handleClickBookmark = () => {

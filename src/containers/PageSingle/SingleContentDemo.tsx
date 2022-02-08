@@ -5,32 +5,7 @@ const SingleContentDemo = () => {
     <>
       {/* THIS IS THE DEMP CONTENT */}
       {/* IF YOUR DATA IS JSON, YOU CAN USE render with html-react-parser (https://www.npmjs.com/package/html-react-parser) */}
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure vel
-        officiis ipsum placeat itaque neque dolorem modi perspiciatis dolor
-        distinctio veritatis sapiente, minima corrupti dolores necessitatibus
-        suscipit accusantium dignissimos culpa cumque.
-      </p>
-      <p>
-        It is a long established fact that a <strong>reader</strong> will be
-        distracted by the readable content of a page when looking at its{" "}
-        <strong>layout</strong>. The point of using Lorem Ipsum is that it has a
-        more-or-less normal{" "}
-        <a href="/#" target="_blank" rel="noopener noreferrer">
-          distribution of letters.
-        </a>{" "}
-      </p>
-      <ol>
-        <li>We want everything to look good out of the box.</li>
-        <li>
-          Really just the first reason, that's the whole point of the plugin.
-        </li>
-        <li>
-          Here's a third pretend reason though a list with three items looks
-          more realistic than a list with two items.
-        </li>
-      </ol>
-      <h3>Typography should be easy</h3>
+      <h3>The Irrational Exuberance of Web3 </h3>
       <p>
         So that's a header for you — with any luck if we've done our job
         correctly that will look pretty reasonable.
