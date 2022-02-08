@@ -21,36 +21,35 @@ const pricings: PricingItem[] = [
   {
     isPopular: false,
     name: "Starter",
-    pricing: "$5",
+    pricing: "£3",
     per: "/mo",
-    features: ["Automated Reporting", "Faster Processing", "Customizations"],
-    desc: `some cool stuff`,
+    features: ["Verified Starter Badge", "Exclusive Member only content"],
+    desc: `Designed for those new to Web3`,
   },
   {
     isPopular: true,
-    name: "Basic",
-    pricing: "$15",
+    name: "Investor",
+    pricing: "£5",
     per: "/mo",
     features: [
       "Everything in Starter",
-      "100 Builds",
-      "Progress Reports",
-      "Premium Support",
+      "Verified Investor Badge",
+      "Specialist Financial insight"
     ],
-    desc: `some cool stuff`,
+    desc: `Engineered for those Web3 enthusiasts `,
   },
   {
     isPopular: false,
-    name: "Plus",
-    pricing: "$25",
+    name: "Tycoon",
+    pricing: "£10",
     per: "/mo",
     features: [
-      "Everything in Basic",
-      "Unlimited Builds",
-      "Advanced Analytics",
-      "Company Evaluations",
+      "Everything in Investor",
+      "Verified Tycoon Badge",
+      "Exclusive Invite only events",
+      "Preview new articles 24hr early"
     ],
-    desc: `some cool stuff`,
+    desc: `Cultivated exclusively for the top 1% `,
   },
 ];
 
@@ -115,7 +114,7 @@ const PageSubcription: FC<PageSubcriptionProps> = ({ className = "" }) => {
       data-nc-id="PageSubcription"
     >
       <LayoutPage
-        subHeading="Pricing to fit the needs of any comnpany size."
+        subHeading="Gain exclusive access to the fastest growing Web3 community"
         headingEmoji="💎"
         heading="Subscription"
       >

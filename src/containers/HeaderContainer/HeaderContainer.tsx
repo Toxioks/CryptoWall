@@ -7,7 +7,7 @@ export interface HeaderContainerProps {
   className?: string;
 }
 
-const HeaderContainer: FC<HeaderContainerProps> = ({ className = "" }) => {
+const HeaderContainer: FC<HeaderContainerProps> = () => {
   const currentPage = useAppSelector(selectCurrentPageData);
 
   return <Header currentPage={currentPage} />;

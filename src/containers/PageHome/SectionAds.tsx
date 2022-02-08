@@ -12,7 +12,7 @@ const SectionAds: FC<SectionAdsProps> = ({
 }) => {
   return (
     <a
-      href="/#"
+      href="https://crypto.com/" target="_blank" rel="noreferrer"
       className={`nc-SectionAds block text-center mx-auto ${className}`}
     >
       <span className="text-xs text-neutral-500">- Advertisement -</span>

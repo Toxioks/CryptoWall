@@ -15,10 +15,10 @@ const Page404: React.FC = () => (
           404
         </h1>
         <span className="block text-sm text-neutral-800 sm:text-base dark:text-neutral-200 tracking-wider font-medium">
-          Sorry, you won't find crypto here!{" "}
+          Dora the explorer, is that you?{" "}
         </span>
         <ButtonPrimary href="/" className="mt-4">
-          Return Home Page
+          Escape Route
         </ButtonPrimary>
       </header>
     </div>

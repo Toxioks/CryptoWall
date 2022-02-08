@@ -54,7 +54,7 @@ const PageAuthor: FC<PageAuthorProps> = ({ className = "" }) => {
         <div className="rounded-3xl relative aspect-w-16 aspect-h-16 sm:aspect-h-9 lg:aspect-h-6 overflow-hidden ">
           <NcImage
             containerClassName="absolute inset-0"
-            src="https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            src="https://miro.medium.com/max/1024/1*Dn5je5NOqqM3Mt6-nAmhKg.png"
             className="object-cover w-full h-full"
           />
         </div>
