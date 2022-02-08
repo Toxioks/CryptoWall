@@ -11,34 +11,53 @@ export interface WidgetFooterMenu {
 
 const widgetMenus: WidgetFooterMenu[] = [
   {
-    id: "5",
-    title: "Cryptocurrency",
-    menus: [
-      { href: "#", label: "Guide" },
-    ],
-  },
-  {
     id: "1",
-    title: "NFT",
+    title: "CryptoWall",
     menus: [
-      { href: "#", label: "Guide" },
-
+      { href: "/about", label: "About" },
+      { href: "/about", label: "Featured" },
+      { href: "/about", label: "For you" },
+      { href: "/about", label: "User" },
+      { href: "/about", label: "Cookie Policy" },
+      { href: "/contact", label: "Legal & privacy" },
     ],
   },
   {
     id: "2",
-    title: "Community",
+    title: "Support",
     menus: [
-      { href: "#", label: "Guide" },
+      { href: "#", label: "FAQ" },
+      { href: "#", label: "Contact us" },
+      { href: "#", label: "Create Account" },
+      { href: "#", label: "Forgotten password" },
+      { href: "#", label: "Payment Methods" },
+      { href: "#", label: "Status" },
+
+    ],
+  },
+  {
+    id: "3",
+    title: "Learn",
+    menus: [
+      { href: "#", label: "Crypto Prices" },
+      { href: "#", label: "Crypto Basics" },
+      { href: "#", label: "What is Crypto?" },
+      { href: "#", label: "What is Blockchain?" },
+      { href: "#", label: "Create an account" },
+      { href: "#", label: "Create a blog post" },
 
     ],
   },
   {
     id: "4",
-    title: "CryptoWall",
+    title: "Crypto",
     menus: [
-      { href: "/about", label: "About Us" },
-      { href: "/contact", label: "Contact" },
+      { href: "https://opensea.io/", label: "Opensea" },
+      { href: "https://magiceden.io/", label: "Magic Eden" },
+      { href: "https://bitcoin.org/en/", label: "Bitcoin" },
+      { href: "https://ethereum.org/en/", label: "Ethereum" },
+      { href: "https://metamask.io/", label: "Metamask" },
+      { href: "https://metamask.io/", label: "Coinbase" },
     ],
   },
 ];
