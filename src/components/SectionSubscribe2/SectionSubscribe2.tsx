@@ -1,15 +1,34 @@
-import React, { FC } from "react";
+import React, {FC, useState} from "react";
 import ButtonCircle from "components/Button/ButtonCircle";
 import rightImg from "images/SVG-subcribe2.png";
 import NcImage from "components/NcImage/NcImage";
 import Badge from "components/Badge/Badge";
 import Input from "components/Input/Input";
+import { addDoc, collection, serverTimestamp} from "firebase/firestore";
+import { db } from "../../configs/firebase-config";
 
 export interface SectionSubscribe2Props {
   className?: string;
 }
 
 const SectionSubscribe2: FC<SectionSubscribe2Props> = ({ className = "" }) => {
+  const [email, setEmail] = useState("");
+  const [popUpMessage, setPopUpMessage] = useState("");
+
+  const newsLetterCollectionRef = collection(db, "newsletter");
+
+  const processNewsletter = async (e : any) => {
+    e.preventDefault();
+
+    await addDoc(newsLetterCollectionRef, {
+      email,
+      time: serverTimestamp()
+    });
+
+    e.target.reset();
+    setPopUpMessage("Thank you for subscribing!");
+    setTimeout(() => {setPopUpMessage("");}, 3000);
+  };
   return (
     <div
       className={`nc-SectionSubscribe2 relative flex flex-col lg:flex-row items-center ${className}`}
@@ -34,12 +53,13 @@ const SectionSubscribe2: FC<SectionSubscribe2Props> = ({ className = "" }) => {
             </span>
           </li>
         </ul>
-        <form className="mt-10 relative max-w-sm">
+        <form className="mt-10 relative max-w-sm" onSubmit={processNewsletter}>
           <Input
             required
             aria-required
             placeholder="Enter your email"
             type="email"
+            onChange={(e) => setEmail(e.target.value)}
           />
           <ButtonCircle
             type="submit"
@@ -48,6 +68,8 @@ const SectionSubscribe2: FC<SectionSubscribe2Props> = ({ className = "" }) => {
             <i className="las la-arrow-right text-xl"></i>
           </ButtonCircle>
         </form>
+        {/*TODO: STYLE FOLLOWING*/}
+        {popUpMessage && <div className="newsletter-pop-up" style={{background: "green"}}>Thank you for subscribing.</div>}
       </div>
       <div className="flex-grow">
         <NcImage src={rightImg} />

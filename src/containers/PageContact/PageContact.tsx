@@ -9,7 +9,7 @@ import { Helmet } from "react-helmet";
 import SectionSubscribe2 from "components/SectionSubscribe2/SectionSubscribe2";
 
 import emailjs from '@emailjs/browser';
-import { addDoc, collection } from "firebase/firestore";
+import { addDoc, collection, serverTimestamp} from "firebase/firestore";
 import { db } from "../../configs/firebase-config";
 
 export interface PageContactProps {
@@ -35,16 +35,18 @@ const PageContact: FC<PageContactProps> = ({ className = "" }) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [popUpMessage, setPopUpMessage] = useState("");
 
-  const postsCollectionRef = collection(db, "contact-form");
+  const contactFormCollectionRef = collection(db, "contact-form");
 
   const processContactForm = async (e : any) => {
     e.preventDefault();
 
-    await addDoc(postsCollectionRef, {
+    await addDoc(contactFormCollectionRef, {
       name,
       email,
       message,
+      time: serverTimestamp()
     });
 
     emailjs.sendForm('service_yklfd0i', 'template_kmllxcy', e.target, 'user_Y42cWwZi6lpaoh6FhJy9n')
@@ -54,6 +56,8 @@ const PageContact: FC<PageContactProps> = ({ className = "" }) => {
           console.log(error.text);
         });
     e.target.reset();
+    setPopUpMessage("Your message has been sent.");
+    setTimeout(() => {setPopUpMessage("");}, 3000);
   };
 
   return (
@@ -91,7 +95,7 @@ const PageContact: FC<PageContactProps> = ({ className = "" }) => {
                 <label className="block">
                   <Label>Full name</Label>
 
-                  <Input placeholder="Example Doe" type="text" className="mt-1" name="name" onChange={(e) => setName(e.target.value)}/>
+                  <Input placeholder="Example Doe" type="text" className="mt-1" name="name" onChange={(e) => setName(e.target.value)} required/>
                 </label>
                 <label className="block">
                   <Label>Email address</Label>
@@ -102,15 +106,18 @@ const PageContact: FC<PageContactProps> = ({ className = "" }) => {
                       className="mt-1"
                       name="email"
                       onChange={(e) => setEmail(e.target.value)}
+                      required
                   />
                 </label>
                 <label className="block">
                   <Label>Message</Label>
 
-                  <Textarea className="mt-1" rows={6}  name="message" onChange={(e) => setMessage(e.target.value)} />
+                  <Textarea className="mt-1" rows={6}  name="message" onChange={(e) => setMessage(e.target.value)} required/>
                 </label>
                 <ButtonPrimary type="submit">Send Message</ButtonPrimary>
               </form>
+              {/*TODO: STYLE FOLLOWING*/}
+              {popUpMessage && <div className="contact-form-pop-up" style={{background: "green"}}>Your message has been sent.</div>}
             </div>
           </div>
         </LayoutPage>
