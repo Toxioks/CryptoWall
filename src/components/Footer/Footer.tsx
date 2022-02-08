@@ -57,7 +57,7 @@ const widgetMenus: WidgetFooterMenu[] = [
       { href: "https://bitcoin.org/en/", label: "Bitcoin" },
       { href: "https://ethereum.org/en/", label: "Ethereum" },
       { href: "https://metamask.io/", label: "Metamask" },
-      { href: "https://metamask.io/", label: "Coinbase" },
+      { href: "https://coinbase.com/", label: "Coinbase" },
     ],
   },
 ];
