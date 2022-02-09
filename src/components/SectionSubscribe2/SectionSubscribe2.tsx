@@ -13,7 +13,8 @@ export interface SectionSubscribe2Props {
 
 const SectionSubscribe2: FC<SectionSubscribe2Props> = ({ className = "" }) => {
   const [email, setEmail] = useState("");
-  const [popUpMessage, setPopUpMessage] = useState("");
+  const [popUp, setPopUp] = useState("");
+  const [display, setDisplay] = useState("block");
 
   const newsLetterCollectionRef = collection(db, "newsletter");
 
@@ -26,8 +27,9 @@ const SectionSubscribe2: FC<SectionSubscribe2Props> = ({ className = "" }) => {
     });
 
     e.target.reset();
-    setPopUpMessage("Thank you for subscribing!");
-    setTimeout(() => {setPopUpMessage("");}, 3000);
+    setDisplay("none");
+    setPopUp("true");
+    setTimeout(() => {setPopUp("");}, 3000);
   };
   return (
       <div
@@ -53,7 +55,7 @@ const SectionSubscribe2: FC<SectionSubscribe2Props> = ({ className = "" }) => {
             </span>
             </li>
           </ul>
-          <form className="mt-10 relative max-w-sm" onSubmit={processNewsletter}>
+          <form className="mt-10 relative max-w-sm" style={{ 'display': display}} onSubmit={processNewsletter}>
             <Input
                 required
                 aria-required
@@ -69,7 +71,7 @@ const SectionSubscribe2: FC<SectionSubscribe2Props> = ({ className = "" }) => {
             </ButtonCircle>
           </form>
           {/*TODO: STYLE FOLLOWING*/}
-          {popUpMessage && <div className="newsletter-pop-up" style={{background: "indigo"}}>Thank you for subscribing.</div>}
+          {popUp && <div className="newsletter-pop-up" style={{background: "indigo"}}>Thank you for subscribing.</div>}
         </div>
         <div className="flex-grow">
           <NcImage src={rightImg} />
