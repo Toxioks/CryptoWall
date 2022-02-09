@@ -69,7 +69,7 @@ const SectionSubscribe2: FC<SectionSubscribe2Props> = ({ className = "" }) => {
             </ButtonCircle>
           </form>
           {/*TODO: STYLE FOLLOWING*/}
-          {popUpMessage && <div className="newsletter-pop-up" style={{background: "green"}}>Thank you for subscribing.</div>}
+          {popUpMessage && <div className="newsletter-pop-up" style={{background: "indigo"}}>Thank you for subscribing.</div>}
         </div>
         <div className="flex-grow">
           <NcImage src={rightImg} />

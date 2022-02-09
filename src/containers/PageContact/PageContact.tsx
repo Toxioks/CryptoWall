@@ -117,7 +117,7 @@ const PageContact: FC<PageContactProps> = ({ className = "" }) => {
                 <ButtonPrimary type="submit">Send Message</ButtonPrimary>
               </form>
               {/*TODO: STYLE FOLLOWING*/}
-              {popUpMessage && <div className="contact-form-pop-up" style={{background: "green"}}>Your message has been sent.</div>}
+              {popUpMessage && <div className="contact-form-pop-up" style={{background: "indigo"}}>Your message has been sent.</div>}
             </div>
           </div>
         </LayoutPage>
