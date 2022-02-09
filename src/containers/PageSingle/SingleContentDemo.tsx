@@ -3,7 +3,7 @@ import React from "react";
 const SingleContentDemo = () => {
   return (
     <>
-      {/* THIS IS THE DEMP CONTENT */}
+      {/* THIS IS THE DEMO CONTENT */}
       {/* IF YOUR DATA IS JSON, YOU CAN USE render with html-react-parser (https://www.npmjs.com/package/html-react-parser) */}
       <h3>The Irrational Exuberance of Web3 </h3>
       <p>
@@ -23,7 +23,7 @@ const SingleContentDemo = () => {
       <figure>
         <img
           src="https://images.unsplash.com/photo-1501493870936-9c2e41625521?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1045&q=80"
-          alt="nc blog"
+          alt="CryptoWall blog"
         />
         <figcaption>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure vel

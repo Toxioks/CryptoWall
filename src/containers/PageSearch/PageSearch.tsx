@@ -57,7 +57,7 @@ const PageSearch: FC<PageSearchProps> = ({ className = "" }) => {
   return (
     <div className={`nc-PageSearch ${className}`} data-nc-id="PageSearch">
       <Helmet>
-        <title>Nc || Search Page Template</title>
+        <title>CyrptoWall | Search Page</title>
       </Helmet>
 
       {/* HEADER */}
