@@ -11,7 +11,7 @@ export interface SectionLargeSliderProps {
 
 const SectionLargeSlider: FC<SectionLargeSliderProps> = ({
   posts,
-  heading = "Editor's pick",
+  heading = "Editor's picks",
   className = "",
 }) => {
   const [indexActive, setIndexActive] = useState(0);
