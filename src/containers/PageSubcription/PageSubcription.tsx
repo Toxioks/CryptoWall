@@ -21,10 +21,10 @@ const pricings: PricingItem[] = [
   {
     isPopular: false,
     name: "Starter",
-    pricing: "£3",
-    per: "/mo",
-    features: ["Verified Starter Badge", "Exclusive Member only content"],
-    desc: `Designed for those new to Web3`,
+    pricing: "Free",
+    per: "",
+    features: ["Restricted Access to CryptoWall", "Newsletter Sign Up"],
+    desc: `An insight into the community`,
   },
   {
     isPopular: true,
@@ -36,7 +36,7 @@ const pricings: PricingItem[] = [
       "Verified Investor Badge",
       "Specialist Financial insight"
     ],
-    desc: `Engineered for those Web3 enthusiasts `,
+    desc: `Engineered to stay up to date with the latest`,
   },
   {
     isPopular: false,
@@ -51,6 +51,7 @@ const pricings: PricingItem[] = [
     ],
     desc: `Cultivated exclusively for the top 1% `,
   },
+
 ];
 
 const PageSubcription: FC<PageSubcriptionProps> = ({ className = "" }) => {

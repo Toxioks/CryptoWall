@@ -37,7 +37,7 @@ const SectionSubscribe2: FC<SectionSubscribe2Props> = ({ className = "" }) => {
           data-nc-id="SectionSubscribe2"
       >
         <div className="flex-shrink-0 mb-14 lg:mb-0 lg:mr-10 lg:w-2/5">
-          <h2 className="font-semibold text-4xl">Join our newsletter 🎉</h2>
+          <h2 className="font-semibold text-4xl">Join our newsletter 🔔</h2>
           <span className="block mt-6 text-neutral-500 dark:text-neutral-400">
           Never miss out on the latest Web3 news
         </span>
