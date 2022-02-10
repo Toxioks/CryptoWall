@@ -264,7 +264,7 @@ const NavigationItem: FC<NavigationItemWithRouterProps> = ({
         {item.name}
         {item.type && (
           <ChevronDownIcon
-            className="ml-2 h-4 w-4 text-neutral-500"
+            className=""
             aria-hidden="true"
           />
         )}
@@ -288,7 +288,7 @@ const NavigationItem: FC<NavigationItemWithRouterProps> = ({
         {item.name}
         {item.type && (
           <ChevronDownIcon
-            className="ml-2 h-4 w-4 text-neutral-500"
+            className=""
             aria-hidden="true"
           />
         )}
@@ -308,7 +308,7 @@ const NavigationItem: FC<NavigationItemWithRouterProps> = ({
         {item.name}
         {item.type && (
           <ChevronDownIcon
-            className="ml-1 -mr-1 h-4 w-4 text-neutral-400"
+            className=""
             aria-hidden="true"
           />
         )}
@@ -327,7 +327,7 @@ const NavigationItem: FC<NavigationItemWithRouterProps> = ({
         {item.name}
         {item.type && (
           <ChevronDownIcon
-            className="ml-1 -mr-1 h-4 w-4 text-neutral-400"
+            className=""
             aria-hidden="true"
           />
         )}
