@@ -45,7 +45,7 @@ const SectionSubscribe2: FC<SectionSubscribe2Props> = ({ className = "" }) => {
             <li className="flex items-center space-x-4">
               <Badge name="01" />
               <span className="font-medium text-neutral-700 dark:text-neutral-300">
-              Get discounted membership to CryptoWall
+              Get discounted membership to CryptoVerse
             </span>
             </li>
             <li className="flex items-center space-x-4">

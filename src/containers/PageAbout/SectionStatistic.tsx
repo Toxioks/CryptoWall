@@ -23,7 +23,7 @@ const FOUNDER_DEMO: Statistic[] = [
     id: "3",
     heading: "A DECADE OF EXPERIENCE",
     subHeading:
-      "The team here at CryptoWall have a reptable amount of experience and are all reputable individuals.",
+      "The team here at CryptoVerse have a reptable amount of experience and are all reputable individuals.",
   },
 ];
 

@@ -34,10 +34,10 @@ const PageSignUp: FC<PageSignUpProps> = ({ className = "" }) => {
   return (
     <div className={`nc-PageSignUp ${className}`} data-nc-id="PageSignUp">
       <Helmet>
-        <title>Sign up | CryptoWall</title>
+        <title>Sign up | CryptoVerse</title>
       </Helmet>
       <LayoutPage
-        subHeading="Welcome to the CryptoWall Community"
+        subHeading="Welcome to the CryptoVerse Community"
         headingEmoji="🎉"
         heading="Sign up"
       >
@@ -71,7 +71,37 @@ const PageSignUp: FC<PageSignUpProps> = ({ className = "" }) => {
           <form className="grid grid-cols-1 gap-6" action="#" method="post">
             <label className="block">
               <span className="text-neutral-800 dark:text-neutral-200">
+                First name
+              </span>
+              <Input
+                type="text"
+                placeholder="Rob"
+                className="mt-1"
+              />
+            </label>
+            <label className="block">
+              <span className="text-neutral-800 dark:text-neutral-200">
+                Last name
+              </span>
+              <Input
+                type="text"
+                placeholder="Stark"
+                className="mt-1"
+              />
+            </label>
+            <label className="block">
+              <span className="text-neutral-800 dark:text-neutral-200">
                 Email address
+              </span>
+              <Input
+                type="email"
+                placeholder="example@example.com"
+                className="mt-1"
+              />
+            </label>
+            <label className="block">
+              <span className="text-neutral-800 dark:text-neutral-200">
+               Confirm Email address
               </span>
               <Input
                 type="email"
@@ -82,6 +112,14 @@ const PageSignUp: FC<PageSignUpProps> = ({ className = "" }) => {
             <label className="block">
               <span className="flex justify-between items-center text-neutral-800 dark:text-neutral-200">
                 Password
+              </span>
+              <Input type="password"
+                     placeholder="**********"
+                     className="mt-1" />
+            </label>
+            <label className="block">
+              <span className="flex justify-between items-center text-neutral-800 dark:text-neutral-200">
+                Confirm Password
               </span>
               <Input type="password"
                      placeholder="**********"

@@ -17,7 +17,7 @@ const Logo: React.FC<LogoProps> = ({
   return (
     <Link to="/" className="ttnc-logo inline-block text-primary-6000">
       {/* @Lewis To Update Logo replace the import.*/}
-      <img src={logo} alt="CryptoWall" />
+      <img src={logo} alt="CryptoVerse" />
     </Link>
   );
 };

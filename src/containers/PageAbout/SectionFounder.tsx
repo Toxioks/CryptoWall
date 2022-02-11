@@ -46,7 +46,7 @@ const SectionFounder = () => {
     <div className="nc-SectionFounder relative">
       <Heading
         desc="A group of Students who study at Leeds Beckett University, We’re impartial and independent, and every day we create distinctive,
-          world-class articles for the CryptoWall community
+          world-class articles for the CryptoVerse community
           "
       >
         💼 Founders
