@@ -38,6 +38,7 @@ const FOUNDER_DEMO: People[] = [
     avatar:
       "https://media-exp1.licdn.com/dms/image/C4D03AQEHjiH-1oI7zw/profile-displayphoto-shrink_800_800/0/1642087018208?e=1649289600&v=beta&t=StCWZ9x84sHwlaB3ejTFJGWJBlBW0SabqqETK62djdU",
   },
+  
 
 ];
 

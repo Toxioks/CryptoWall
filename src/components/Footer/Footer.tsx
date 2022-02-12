@@ -9,17 +9,18 @@ export interface WidgetFooterMenu {
   menus: CustomLink[];
 }
 
+
 const widgetMenus: WidgetFooterMenu[] = [
   {
     id: "1",
     title: "CryptoVerse",
     menus: [
-      { href: "/about", label: "About" },
+      { href: "/about", label: "About", targetBlank: true },
       { href: "/featured", label: "Featured" },
       { href: "/suggested", label: "Suggested" },
       { href: "/dashboard/root", label: "User" },
-      { href: "/about", label: "Cookie Policy" },
-      { href: "/contact", label: "Legal & privacy" },
+      { href: "/Cookie-Policy", label: "Cookie Policy" },
+      { href: "/legal-&-Privacy", label: "Legal & privacy" },
     ],
   },
   {
@@ -53,7 +54,7 @@ const widgetMenus: WidgetFooterMenu[] = [
     title: "Crypto",
     menus: [
       {href: "https://opensea.io/ ", label: "Opensea" },
-      { href: "https://magiceden.io/", label: "Magic Eden" },
+      { href: "https://magiceden.io/" ,  label: "Magic Eden",  },
       { href: "https://bitcoin.org/en/", label: "Bitcoin" },
       { href: "https://ethereum.org/en/", label: "Ethereum" },
       { href: "https://metamask.io/", label: "Metamask" },
