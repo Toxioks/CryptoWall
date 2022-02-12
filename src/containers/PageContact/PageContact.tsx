@@ -19,15 +19,15 @@ export interface PageContactProps {
 const info = [
   {
     title: "🗺 ADDRESS",
-    desc: "CryptoVerse HQ James Graham",
+    desc: "CryptoVerse HQ, James Graham, Leeds",
   },
   {
     title: "💌 EMAIL",
-    desc: "Contact@CryptoVerse.com",
+    desc: "Contact@theCryptoVerse.tech",
   },
   {
     title: "☎ PHONE",
-    desc: "000-123-456-7890",
+    desc: "0113 812 0000",
   },
 ];
 

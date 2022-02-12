@@ -35,7 +35,7 @@ const SingleContentDemo = () => {
         <p>
           You can email us at <a href="/single/this-is-single-slug-2">email@address.com</a> or use our <a href="/contact">contact form</a>
         </p>
-
+{/* 
       <blockquote>
         <p>
           Typography is pretty important if you don't want your stuff to look
@@ -91,7 +91,7 @@ const SingleContentDemo = () => {
 } `}
         </code>
       </pre>
-      <p>Hopefully that looks good enough to you.</p>
+      <p>Hopefully that looks good enough to you.</p> */}
 
     </>
   );

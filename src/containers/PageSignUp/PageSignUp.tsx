@@ -71,37 +71,17 @@ const PageSignUp: FC<PageSignUpProps> = ({ className = "" }) => {
           <form className="grid grid-cols-1 gap-6" action="#" method="post">
             <label className="block">
               <span className="text-neutral-800 dark:text-neutral-200">
-                First name
+                Username
               </span>
               <Input
                 type="text"
-                placeholder="Rob"
-                className="mt-1"
-              />
-            </label>
-            <label className="block">
-              <span className="text-neutral-800 dark:text-neutral-200">
-                Last name
-              </span>
-              <Input
-                type="text"
-                placeholder="Stark"
+                placeholder="CryptoNerd12"
                 className="mt-1"
               />
             </label>
             <label className="block">
               <span className="text-neutral-800 dark:text-neutral-200">
                 Email address
-              </span>
-              <Input
-                type="email"
-                placeholder="example@example.com"
-                className="mt-1"
-              />
-            </label>
-            <label className="block">
-              <span className="text-neutral-800 dark:text-neutral-200">
-               Confirm Email address
               </span>
               <Input
                 type="email"

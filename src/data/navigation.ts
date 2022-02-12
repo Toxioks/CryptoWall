@@ -243,7 +243,7 @@ export const NAVIGATION_DEMO: NavItemType[] = [
   {
     id: ncNanoId(),
     href: "/author/the-demo-author-slug",
-    name: "You",
+    name: "Suggested",
     type: "none",
     children: defaultChildMenus,
   },
