@@ -187,7 +187,7 @@ const contactChildMenus: NavItemType[] = [
   },
 ];
 
-const homeChildMenus: NavItemType[] = [
+const defaultChildMenus: NavItemType[] = [
 
 
 ];
@@ -211,29 +211,6 @@ const featuredChildMenus: NavItemType[] = [
   },
 ];
 
-const foryouChildMenus: NavItemType[] = [
-
-  {
-    id: ncNanoId(),
-    href: "/author/the-demo-author-slug",
-    name: "For you",
-  },
-  {
-    id: ncNanoId(),
-    href: "/subscription",
-    name: "Subscription",
-  },
-
-];
-const aboutChildMenus: NavItemType[] = [
-
-  {
-    id: ncNanoId(),
-    href: "/about",
-    name: "About",
-  },
-
-];
 
 const templateChilds: NavItemType[] = [
   ...archviePageChildrenMenus,
@@ -261,35 +238,28 @@ export const NAVIGATION_DEMO: NavItemType[] = [
     href: "/",
     name: "Home",
     type: "none",
-    children: homeChildMenus,
+    children: defaultChildMenus,
+  },
+  {
+    id: ncNanoId(),
+    href: "/author/the-demo-author-slug",
+    name: "You",
+    type: "none",
+    children: defaultChildMenus,
   },
   {
     id: ncNanoId(),
     href: "/about",
-    name: "About us",
-    type: "dropdown",
-    children: aboutChildMenus,
+    name: "About",
+    type: "none",
+    children: defaultChildMenus,
   },
   {
     id: ncNanoId(),
     href: "/single-template-3/this-is-single-slug-3",
     name: "Featured",
-    type: "dropdown",
-    children: featuredChildMenus,
-  },
-  {
-    id: ncNanoId(),
-    href: "/author/the-demo-author-slug",
-    name: "For You",
-    type: "dropdown",
-    children: foryouChildMenus,
-  },
-  {
-    id: ncNanoId(),
-    href: "/dashboard",
-    name: "User",
-    type: "dropdown",
-    children: dashboardChildMenus,
+    type: "none",
+    children: defaultChildMenus,
   },
   {
     id: ncNanoId(),
@@ -297,6 +267,13 @@ export const NAVIGATION_DEMO: NavItemType[] = [
     name: "Support",
     type: "dropdown",
     children: contactChildMenus,
+  },
+  /**{
+    id: ncNanoId(),
+    href: "/dashboard",
+    name: "User",
+    type: "dropdown",
+    children: dashboardChildMenus,
   },
   {
     id: ncNanoId(),
@@ -311,5 +288,5 @@ export const NAVIGATION_DEMO: NavItemType[] = [
     name: "Pages #2 (Temporary)",
     type: "dropdown",
     children: otherPageChildMenus,
-  },
+  },**/
 ];
