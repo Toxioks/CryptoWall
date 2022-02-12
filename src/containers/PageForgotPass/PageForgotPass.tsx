@@ -32,7 +32,7 @@ const PageForgotPass: FC<PageForgotPassProps> = ({ className = "" }) => {
               </span>
               <Input
                 type="email"
-                placeholder="example@example.com"
+                placeholder="name@example.com"
                 className="mt-1"
               />
             </label>

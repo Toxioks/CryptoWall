@@ -3,6 +3,7 @@ import React, { FC } from "react";
 import facebookSvg from "images/Facebook.svg";
 import twitterSvg from "images/Twitter.svg";
 import googleSvg from "images/Google.svg";
+import githubSvg from "images/github.svg";
 import Input from "components/Input/Input";
 import ButtonPrimary from "components/Button/ButtonPrimary";
 import NcLink from "components/NcLink/NcLink";
@@ -19,9 +20,9 @@ const loginSocials = [
     icon: facebookSvg,
   },
   {
-    name: "Continue with Twitter",
+    name: "Continue with Github",
     href: "#",
-    icon: twitterSvg,
+    icon: githubSvg,
   },
   {
     name: "Continue with Google",
@@ -37,7 +38,7 @@ const PageLogin: FC<PageLoginProps> = ({ className = "" }) => {
         <title>Login | CryptoVerse</title>
       </Helmet>
       <LayoutPage
-        subHeading="Welcome to the CryptoVerse community"
+        subHeading="Welcome back to the CryptoVerse community"
         headingEmoji="🔑"
         heading="Login"
       >
@@ -75,7 +76,7 @@ const PageLogin: FC<PageLoginProps> = ({ className = "" }) => {
               </span>
               <Input
                 type="email"
-                placeholder="example@example.com"
+                placeholder="name@example.com"
                 className="mt-1"
               />
             </label>

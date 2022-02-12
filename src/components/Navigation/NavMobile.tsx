@@ -155,8 +155,7 @@ const NavMobile: React.FC<NavMobileProps> = ({
         <Logo />
         <div className="flex flex-col mt-5 text-neutral-700 dark:text-neutral-300 text-sm">
           <span>
-            Discover the most outstanding articles on all topics of life. Write
-            your stories and share them
+            Welcome to The CryptoVerse
           </span>
 
           <div className="flex justify-between items-center mt-4">
@@ -174,8 +173,8 @@ const NavMobile: React.FC<NavMobileProps> = ({
         {data.map(_renderItem)}
       </ul>
       <div className="flex items-center justify-between py-6 px-5 space-x-4">
-        <a href="/#" target="_blank" rel="noopener noreferrer">
-          <ButtonPrimary>Button</ButtonPrimary>
+        <a href="/login" target="_blank" rel="noopener noreferrer">
+          <ButtonPrimary>Sign In</ButtonPrimary>
         </a>
       </div>
     </div>

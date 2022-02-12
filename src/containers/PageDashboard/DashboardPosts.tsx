@@ -5,51 +5,51 @@ import Pagination from "components/Pagination/Pagination";
 const people = [
   {
     id: 1,
-    title: "Tokyo Fashion Week Is Making Itself Great Again",
+    title: "The Game Changing Blog in The Crypto World",
     image:
-      "https://images.unsplash.com/photo-1617059063772-34532796cdb5?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=60",
+    "https://blog.nash.io/content/images/2020/05/btc-trading-blog.png",
     liveStatus: true,
     payment: "Not Applicable",
   },
   {
     id: 2,
-    title: "Traveling Tends to Magnify All Human Emotions",
+    title: "Are Apes in the Yacht Club Bored?",
     image:
-      "https://images.unsplash.com/photo-1622987437805-5c6f7c2609d7?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=60",
+    "https://i.guim.co.uk/img/media/ef8492feb3715ed4de705727d9f513c168a8b196/37_0_1125_675/master/1125.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=7ce91813e22e1ca59b2723833dffa49f",
     liveStatus: true,
     payment: "Not Applicable",
   },
   {
     id: 3,
-    title: "Interior Design: Hexagon is the New Circle in 2018",
+    title: "Ethereum 2.0, What Does It Mean For NFT'?",
     image:
-      "https://images.unsplash.com/photo-1617201277988-f0efcc14e626?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=60",
+    "https://nexo.io/media/pages/blog/dispatch-12-eth-2-is-real/532c685585-1631610890/blog-dispatch-cover-issue-012.png",
     liveStatus: true,
     payment: "Not Applicable",
   },
   {
     id: 4,
-    title: "Heritage Museums & Gardens to Open with New Landscape",
+    title: "The first university to implement Metaverse lectures",
     image:
-      "https://images.unsplash.com/photo-1622960748096-1983e5f17824?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=60",
+    "https://i.pinimg.com/originals/8f/ca/db/8fcadbcaaa5f1589deb65201d5c5d3cf.png",
     liveStatus: true,
     payment: "Not Applicable",
   },
   {
     id: 5,
     title:
-      "Man agrees to complete $5,000 Hereford Inlet Lighthouse painting job",
+      "CyrptoCurrency Tax Crackdown in The UK",
     image:
-      "https://images.unsplash.com/photo-1617202227468-7597afc7046d?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=60",
+    "https://www.regtechtimes.com/wp-content/uploads/2021/11/Crypto-Taxation-img.jpg",
     liveStatus: false,
     payment: "Not Applicable",
   },
   {
     id: 6,
     title:
-      "Denton Corker Marshall the mysterious black box is biennale pavilion",
+      "Is Your Next Job In Web3?",
     image:
-      "https://images.unsplash.com/photo-1622978147823-33d5e241e976?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzM3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=60",
+    "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/HWSBOOEGZVJFLJRYBNFJDE6I4I.jpg",
     liveStatus: true,
     payment: "Not Applicable",
   },

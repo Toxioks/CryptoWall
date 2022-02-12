@@ -9,30 +9,29 @@ export interface WidgetFooterMenu {
   menus: CustomLink[];
 }
 
-
 const widgetMenus: WidgetFooterMenu[] = [
   {
     id: "1",
     title: "CryptoVerse",
     menus: [
-      { href: "/about", label: "About", targetBlank: true },
-      { href: "/featured", label: "Featured" },
-      { href: "/suggested", label: "Suggested" },
-      { href: "/dashboard/root", label: "User" },
-      { href: "/Cookie-Policy", label: "Cookie Policy" },
-      { href: "/legal-&-Privacy", label: "Legal & privacy" },
+      { href: "/about", label: "About" },
+      { href: "/about", label: "Featured" },
+      { href: "/about", label: "For you" },
+      { href: "/about", label: "User" },
+      { href: "/about", label: "Cookie Policy" },
+      { href: "/contact", label: "Legal & privacy" },
     ],
   },
   {
     id: "2",
     title: "Support",
     menus: [
-      { href: "/frequently-asked-questions", label: "FAQ" },
-      { href: "/contact", label: "Contact us" },
-      { href: "/login", label: "Create Account" },
-      { href: "/forgot-pass", label: "Forgotten password" },
-      { href: "payment-methods", label: "Payment Methods" },
-      { href: "/status", label: "Status" },
+      { href: "#", label: "FAQ" },
+      { href: "#", label: "Contact us" },
+      { href: "#", label: "Create Account" },
+      { href: "#", label: "Forgotten password" },
+      { href: "#", label: "Payment Methods" },
+      { href: "#", label: "Status" },
 
     ],
   },
@@ -40,12 +39,12 @@ const widgetMenus: WidgetFooterMenu[] = [
     id: "3",
     title: "Learn",
     menus: [
-      { href: "/crypto-prices", label: "Crypto Prices" },
-      { href: "/crypto-basics", label: "Crypto Basics" },
-      { href: "/what-is-crypto", label: "What is Crypto?" },
-      { href: "/what-is-blockchain", label: "What is Blockchain?" },
-      { href: "/create-a-blog-post", label: "Create a blog post" },
-      { href: "/subscriptions", label: "Subscriptions" },
+      { href: "#", label: "Crypto Prices" },
+      { href: "#", label: "Crypto Basics" },
+      { href: "#", label: "What is Crypto?" },
+      { href: "#", label: "What is Blockchain?" },
+      { href: "#", label: "Create an account" },
+      { href: "#", label: "Create a blog post" },
 
     ],
   },
@@ -53,8 +52,8 @@ const widgetMenus: WidgetFooterMenu[] = [
     id: "4",
     title: "Crypto",
     menus: [
-      {href: "https://opensea.io/ ", label: "Opensea" },
-      { href: "https://magiceden.io/" ,  label: "Magic Eden",  },
+      { href: "https://opensea.io/", label: "Opensea" },
+      { href: "https://magiceden.io/", label: "Magic Eden" },
       { href: "https://bitcoin.org/en/", label: "Bitcoin" },
       { href: "https://ethereum.org/en/", label: "Ethereum" },
       { href: "https://metamask.io/", label: "Metamask" },

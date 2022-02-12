@@ -95,14 +95,14 @@ const PageContact: FC<PageContactProps> = ({ className = "" }) => {
                 <label className="block">
                   <Label>Full name</Label>
 
-                  <Input placeholder="Example Doe" type="text" className="mt-1" name="name" onChange={(e) => setName(e.target.value)} required/>
+                  <Input placeholder="Full Name" type="text" className="mt-1" name="name" onChange={(e) => setName(e.target.value)} required/>
                 </label>
                 <label className="block">
                   <Label>Email address</Label>
 
                   <Input
                       type="email"
-                      placeholder="example@example.com"
+                      placeholder="name@example.com"
                       className="mt-1"
                       name="email"
                       onChange={(e) => setEmail(e.target.value)}

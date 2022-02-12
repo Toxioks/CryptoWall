@@ -9,11 +9,11 @@ const DashboardEditProfile = () => {
       <form className="grid md:grid-cols-2 gap-6" action="#" method="post">
         <label className="block">
           <Label>First name</Label>
-          <Input placeholder="Example Doe" type="text" className="mt-1" />
+          <Input placeholder="First Name" type="text" className="mt-1" />
         </label>
         <label className="block">
           <Label>Last name</Label>
-          <Input placeholder="Doe" type="text" className="mt-1" />
+          <Input placeholder="Last Name" type="text" className="mt-1" />
         </label>
         <label className="block">
           <Label>Current password</Label>
@@ -27,7 +27,7 @@ const DashboardEditProfile = () => {
           <Label> Email address</Label>
           <Input
             type="email"
-            placeholder="example@example.com"
+            placeholder="name@example.com"
             className="mt-1"
           />
         </label>
