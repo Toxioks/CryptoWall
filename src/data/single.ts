@@ -32,7 +32,7 @@ export const SINGLE: SinglePageType = {
   featuredImage:
     "https://images.unsplash.com/photo-1605487903301-a1dff2e6bbbe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1957&q=80",
   title: "The game changing blog platform in the crypto world",
-  desc: "Welcome to CryptoWall. A game changing innovative blog site",
+  desc: "Welcome to CryptoVerse. A game changing innovative blog site",
   date: "February 02, 2022",
   href: "/single/this-is-single-slug",
   commentCount: 14,
@@ -42,9 +42,9 @@ export const SINGLE: SinglePageType = {
   like: { count: 773, isLiked: true },
   author: {
     id: 1,
-    firstName: "Dan",
-    lastName: "Kramer",
-    displayName: "Dan Kramer",
+    firstName: "Lewis",
+    lastName: "Dickinson",
+    displayName: "Lewis Dickinson",
     email: "Email",
     avatar: a10,
     count: 38,
@@ -55,7 +55,7 @@ export const SINGLE: SinglePageType = {
   categories: [
     {
       id: 3,
-      name: "CryptoWall",
+      name: "CryptoVerse",
       href: "/archive/the-demo-archive-slug",
       thumbnail:
         "https://images.unsplash.com/photo-1461354464878-ad92f492a5a0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGdhcmRlbmluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=60",

@@ -16,7 +16,7 @@ const PageForgotPass: FC<PageForgotPassProps> = ({ className = "" }) => {
       data-nc-id="PageForgotPass"
     >
       <Helmet>
-        <title>Forgot Password | CryptoWall</title>
+        <title>Forgot Password | CryptoVerse</title>
       </Helmet>
       <LayoutPage
         subHeading="We will send reset password instructions to the email provided"

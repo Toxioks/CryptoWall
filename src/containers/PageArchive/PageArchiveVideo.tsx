@@ -40,7 +40,7 @@ const PageArchiveVideo: FC<PageArchiveVideoProps> = ({ className = "" }) => {
       data-nc-id="PageArchiveVideo"
     >
       <Helmet>
-        <title>Archive | CryptoWall</title>
+        <title>Archive | CryptoVerse</title>
       </Helmet>
 
       <div className="dark bg-neutral-900 dark:bg-transparent text-white">

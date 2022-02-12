@@ -5,12 +5,37 @@ const SingleContentDemo = () => {
     <>
       {/* THIS IS THE DEMP CONTENT */}
       {/* IF YOUR DATA IS JSON, YOU CAN USE render with html-react-parser (https://www.npmjs.com/package/html-react-parser) */}
-      <h3>The Irrational Exuberance of Web3 </h3>
-      <p>
-        So that's a header for you — with any luck if we've done our job
-        correctly that will look pretty reasonable.
-      </p>
-      <p>Something a wise person once told me about typography is:</p>
+      <h1>Frequently Asked Questions </h1>
+
+      <h3>What is CryptoVerse?</h3>
+        <p>
+          CryptoVerse is a blog based around the irrational exuberance of web3, we aim to provide Educational information surrounding the use of Crypto Methodlogies.
+        </p>
+
+      <h3>Who created CryptoVerse?</h3>
+        <p>
+          CryptoVerse was founded by 5 students that studied at Leeds Beckett University, CryptoVerse was originally created as a school project which then further developed
+          into what it is today.
+        </p>
+
+        <h3>What is Web3?</h3>
+        <p>
+        Web3 is a concept for the next iteration of the internet, built around decentralised blockchain technology
+        — that's the same technology used by cryptocurrencies such as Bitcoin, where data isn't managed by a centralised 
+        server or authority, but by all of the computer systems that run on the blockchain.
+        </p>
+
+      <h3>What happens to my data?</h3>
+        <p>
+        CryptoVerse keeps your profile and wallet data private unless you authorize permission to share your data.
+         You will see a CryptoVerse confirmation when websites request access to view your account or wallet address.
+        </p>
+
+      <h3>How to contact support</h3>
+        <p>
+          You can email us at <a href="/single/this-is-single-slug-2">email@address.com</a> or use our <a href="/contact">contact form</a>
+        </p>
+
       <blockquote>
         <p>
           Typography is pretty important if you don't want your stuff to look
@@ -23,7 +48,7 @@ const SingleContentDemo = () => {
       <figure>
         <img
           src="https://images.unsplash.com/photo-1501493870936-9c2e41625521?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1045&q=80"
-          alt="CryptoWall blog"
+          alt="CryptoVerse blog"
         />
         <figcaption>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure vel
@@ -67,25 +92,7 @@ const SingleContentDemo = () => {
         </code>
       </pre>
       <p>Hopefully that looks good enough to you.</p>
-      <h3>We still need to think about stacked headings though.</h3>
-      <h4>
-        Let's make sure we don't screw that up with <code>h4</code> elements,
-        either.
-      </h4>
-      <p>
-        Phew, with any luck we have styled the headings above this text and they
-        look pretty good.
-      </p>
-      <p>
-        Let's add a closing paragraph here so things end with a decently sized
-        block of text. I can't explain why I want things to end that way but I
-        have to assume it's because I think things will look weird or unbalanced
-        if there is a heading too close to the end of the document.
-      </p>
-      <p>
-        What I've written here is probably long enough, but adding this final
-        sentence can't hurt.
-      </p>
+
     </>
   );
 };

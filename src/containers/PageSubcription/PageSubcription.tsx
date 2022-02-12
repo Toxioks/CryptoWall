@@ -23,7 +23,7 @@ const pricings: PricingItem[] = [
     name: "Starter",
     pricing: "Free",
     per: "",
-    features: ["Restricted Access to CryptoWall", "Newsletter Sign Up"],
+    features: ["Restricted Access to CryptoVerse", "Newsletter Sign Up"],
     desc: `An insight into the community`,
   },
   {
