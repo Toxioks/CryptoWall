@@ -12,7 +12,7 @@ export interface WidgetFooterMenu {
 const widgetMenus: WidgetFooterMenu[] = [
   {
     id: "1",
-    title: "CryptoWall",
+    title: "CryptoVerse",
     menus: [
       { href: "/about", label: "About" },
       { href: "/about", label: "Featured" },

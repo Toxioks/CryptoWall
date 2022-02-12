@@ -96,7 +96,7 @@ const Routes = () => {
   return (
     <BrowserRouter
       basename={
-        process.env.REACT_APP_LRT_OR_RTL === "rtl" ? "/CryptoWall-rtl" : "/CryptoWall"
+        process.env.REACT_APP_LRT_OR_RTL === "rtl" ? "/CryptoVerse-rtl" : "/CryptoVerse"
       }
     >
       <ScrollToTop />

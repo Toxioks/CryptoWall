@@ -11,7 +11,7 @@ export interface SectionTrendingProps {
 
 const SectionTrending: FC<SectionTrendingProps> = ({
   posts,
-  heading = "Trending on CryptoWall",
+  heading = "Trending on CryptoVerse",
   className = "",
 }) => {
   return (

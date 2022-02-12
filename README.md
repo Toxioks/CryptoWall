@@ -1,6 +1,6 @@
 # Note Before initialising the project
 
-The cryptoWall Project uses facebook create react app bootstrap. 
+The cryptoVerse Project uses facebook create react app bootstrap. 
 
 In the project directory, Follow these steps to enable running of the project.
 
