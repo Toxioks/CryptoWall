@@ -15,21 +15,21 @@ const DashboardSubmitPost = () => {
           <Input type="text" className="mt-1" />
         </label>
         <label className="block md:col-span-2">
-          <Label>Post</Label>
+          <Label>Post Appendix</Label>
 
           <Textarea className="mt-1" rows={4} />
           <p className="mt-1 text-sm text-neutral-500">
-            Brief description for your article. URLs are hyperlinked.
+            A brief summary of your article
           </p>
         </label>
         <label className="block">
           <Label>Category</Label>
 
           <Select className="mt-1">
-            <option value="-1">– select –</option>
-            <option value="ha'apai">Category 1</option>
-            <option value="tongatapu">Category 2</option>
-            <option value="vava'u">Category 3</option>
+            <option selected disabled>Select Category</option>
+            <option value="Category 1">Category 1</option>
+            <option value="Category 2">Category 2</option>
+            <option value="Category 3">Category 3</option>
           </Select>
         </label>
         <label className="block">

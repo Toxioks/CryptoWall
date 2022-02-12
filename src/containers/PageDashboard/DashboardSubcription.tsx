@@ -1,10 +1,9 @@
 import React from "react";
 
 const data = [
-  { name: "Subcription Name", content: " Premium" },
-  { name: "Package & billing details", content: " $222.00" },
-  { name: "Remaining post", content: " 18" },
-  { name: "Expire date", content: " October 20, 2022" },
+  { name: "Subcription Name", content: " Free" },
+  { name: "Package & billing details", content: " £0" },
+  { name: "Renew date", content: " 30/05/2022" },
 ];
 
 const DashboardSubcription = () => {
