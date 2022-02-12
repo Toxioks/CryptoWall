@@ -19,11 +19,11 @@ export interface PageContactProps {
 const info = [
   {
     title: "🗺 ADDRESS",
-    desc: "CryptoWall HQ James Graham",
+    desc: "CryptoVerse HQ James Graham",
   },
   {
     title: "💌 EMAIL",
-    desc: "Contact@CryptoWall.com",
+    desc: "Contact@CryptoVerse.com",
   },
   {
     title: "☎ PHONE",
@@ -63,7 +63,7 @@ const PageContact: FC<PageContactProps> = ({ className = "" }) => {
   return (
       <div className={`nc-PageContact ${className}`} data-nc-id="PageContact">
         <Helmet>
-          <title>Contact | CryptoWall</title>
+          <title>Contact | CryptoVerse</title>
         </Helmet>
         <LayoutPage
             subHeading="Drop us message and we will get back for you."

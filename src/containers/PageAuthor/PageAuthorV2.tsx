@@ -46,7 +46,7 @@ const PageAuthorV2: FC<PageAuthorV2Props> = ({ className = "" }) => {
   return (
     <div className={`nc-PageAuthorV2  ${className}`} data-nc-id="PageAuthorV2">
       <Helmet>
-        <title>Author | CryptoWall</title>
+        <title>Author | CryptoVerse</title>
       </Helmet>
       <HeadBackgroundCommon className="h-24 2xl:h-28" />
       <div className="container">

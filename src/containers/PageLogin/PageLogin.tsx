@@ -34,10 +34,10 @@ const PageLogin: FC<PageLoginProps> = ({ className = "" }) => {
   return (
     <div className={`nc-PageLogin ${className}`} data-nc-id="PageLogin">
       <Helmet>
-        <title>Login | CryptoWall</title>
+        <title>Login | CryptoVerse</title>
       </Helmet>
       <LayoutPage
-        subHeading="Welcome to the CryptoWall community"
+        subHeading="Welcome to the CryptoVerse community"
         headingEmoji="🔑"
         heading="Login"
       >

@@ -60,7 +60,7 @@ const PageArchiveAudio: FC<PageArchiveAudioProps> = ({ className = "" }) => {
       data-nc-id="PageArchiveAudio"
     >
       <Helmet>
-        <title>Archive | CryptoWall</title>
+        <title>Archive | CryptoVerse</title>
       </Helmet>
 
       {/* HEADER */}

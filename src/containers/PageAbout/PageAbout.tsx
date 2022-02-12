@@ -19,7 +19,7 @@ const PageAbout: FC<PageAboutProps> = ({ className = "" }) => {
       data-nc-id="PageAbout"
     >
       <Helmet>
-        <title>About | CryptoWall</title>
+        <title>About | CryptoVerse</title>
       </Helmet>
 
       {/* ======== BG GLASS ======== */}
@@ -30,7 +30,7 @@ const PageAbout: FC<PageAboutProps> = ({ className = "" }) => {
           rightImg={rightImg}
           heading="👋 About Us"
           btnText=""
-          subHeading="CryptoWall is a community focussed project founded in 2022 to create an accessible space for all. Every day we aim to achieve create distinctive, world-class articles for the CryptoWall community.  "
+          subHeading="CryptoVerse is a community focussed project founded in 2022 to create an accessible space for all. Every day we aim to achieve create distinctive, world-class articles for the CryptoVerse community.  "
         />
 
         <SectionFounder />

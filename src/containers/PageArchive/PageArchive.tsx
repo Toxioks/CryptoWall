@@ -41,7 +41,7 @@ const PageArchive: FC<PageArchiveProps> = ({ className = "" }) => {
       data-nc-id="PageArchive"
     >
       <Helmet>
-        <title>Archive | CryptoWall</title>
+        <title>Archive | CryptoVerse</title>
       </Helmet>
 
       {/* HEADER */}
