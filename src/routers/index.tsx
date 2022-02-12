@@ -32,7 +32,12 @@ import PageArchiveVideo from "containers/PageArchive/PageArchiveVideo";
 import PageArchiveAudio from "containers/PageArchive/PageArchiveAudio";
 import MediaRunningContainerForSafari from "containers/MediaRunningContainer/MediaRunningContainerForSafari";
 import isSafariBrowser from "utils/isSafariBrowser";
-
+import PageFaq from "containers/PageFaq/PageSingleTemp3Sidebar";
+import PageCookie from "containers/PageCookie/PageSingleTemp3Sidebar";
+import PageLegal from "containers/PageLegal/PageSingleTemp3Sidebar";
+import PagePayment from "containers/PagePaymentMethod/PageSingleTemp3Sidebar";
+import PageStatus from "containers/PageLiveStatus/PageSingleTemp3Sidebar";
+import PageSubscriptions from "containers/PageSubscriptions/PageSingleTemp3Sidebar";
 
 export const pages: Page[] = [
   { path: "/", exact: true, component: PageHome },
@@ -88,6 +93,12 @@ export const pages: Page[] = [
   { path: "/forgot-pass", component: PageForgotPass },
   { path: "/dashboard", component: PageDashboard },
   { path: "/subscription", component: PageSubcription },
+  { path: "/frequently-asked-questions", component: PageFaq },
+  { path: "/Cookie-Policy", component: PageCookie },
+  { path: "/Legal-&-Privacy", component: PageLegal },
+  { path: "/Payment-Methods", component: PagePayment },
+  { path: "/Status", component: PageStatus },
+  { path: "/Subscriptions", component: PageSubscriptions },
   //
   //
 ];

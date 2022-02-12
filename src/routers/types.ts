@@ -22,6 +22,9 @@ export interface LocationStates {
   //
   "/search"?: {};
   "/search-v2"?: {};
+  "/Suggested"?: {};
+  "/Featured"?: {};
+  "/Support"?: {};
   "/about"?: {};
   "/contact"?: {};
   "/login"?: {};
@@ -30,6 +33,17 @@ export interface LocationStates {
   "/page404"?: {};
   "/dashboard"?: {};
   "/subscription"?: {};
+  "/frequently-asked-questions"?: {};
+  "/Cookie-Policy"?: {};
+  "/Legal-&-Privacy"?: {};
+  "/Payment-Methods"?: {};
+  "/Status"?: {};
+  "/Subscriptions"?: {};
+  "/What-is-Blockchain"?: {};
+  "/What-is-Crypto"?: {};
+  "/Crypto-basics"?: {};
+  "/Crypto-Prices"?: {};
+  "/Create-a-blog-post"?: {};
   //
   "/theme-cyan-blueGrey"?: {};
   "/theme-blue-blueGrey"?: {};

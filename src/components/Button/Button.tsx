@@ -13,7 +13,7 @@ export interface ButtonProps {
   disabled?: boolean;
   type?: ButtonHTMLAttributes<HTMLButtonElement>["type"];
   href?: keyof LocationStates | "#" | LinkProps["to"];
-  targetBlank?: boolean;
+  targetBlank?: true;
   onClick?: () => void;
 }
 

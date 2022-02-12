@@ -4,11 +4,11 @@ import React from "react";
 const SingleContentDemo = () => {
   return (
     <>
-      {/* THIS IS THE DEMO CONTENT */}
+      {/* THIS IS THE DEMP CONTENT */}
       {/* IF YOUR DATA IS JSON, YOU CAN USE render with html-react-parser (https://www.npmjs.com/package/html-react-parser) */}
-      <h1>Frequently Asked Questions - Back up</h1>
+      <h1>Subscriptions </h1>
 
-      <h3>What is CryptoVerse?</h3>
+      <h3>Subscriptions</h3>
         <p>
           CryptoVerse is a blog based around the irrational exuberance of web3, we aim to provide Educational information surrounding the use of Crypto Methodlogies.
         </p>
