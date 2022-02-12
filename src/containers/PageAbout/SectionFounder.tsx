@@ -20,21 +20,21 @@ const FOUNDER_DEMO: People[] = [
   {
     id: "4",
     name: `Furqan Khan`,
-    job: "Back-End & Database Engineer Co-Lead.",
+    job: "Back-End Software Engineer",
     avatar:
       "https://media-exp1.licdn.com/dms/image/C5603AQExzPSHcFApxg/profile-displayphoto-shrink_800_800/0/1633817379175?e=1649289600&v=beta&t=Yx0CAqD2e-2WlQLlJFHRl1UJVa42Lj-enLDSNHAwl2U",
   },
   {
     id: "3",
     name: `Lewis Dickinson`,
-    job: "Front-End Engineer and operations support.",
+    job: "Front-End Engineer and Business Lead",
     avatar:
       "https://media-exp1.licdn.com/dms/image/C4E03AQFkOSoe78LJzA/profile-displayphoto-shrink_200_200/0/1598990377608?e=1649894400&v=beta&t=F1dTFfeSJ2CBo-ooxS36z9r0q-V5MOqo3OtGvCjomPg",
   },
   {
     id: "2",
     name: `Mirza Ali`,
-    job: "Back-End & Database Engineer Co-Lead.",
+    job: "Back-End Software Engineer",
     avatar:
       "https://media-exp1.licdn.com/dms/image/C4D03AQEHjiH-1oI7zw/profile-displayphoto-shrink_800_800/0/1642087018208?e=1649289600&v=beta&t=StCWZ9x84sHwlaB3ejTFJGWJBlBW0SabqqETK62djdU",
   },

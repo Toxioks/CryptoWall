@@ -3,6 +3,7 @@ import LayoutPage from "components/LayoutPage/LayoutPage";
 import facebookSvg from "images/Facebook.svg";
 import twitterSvg from "images/Twitter.svg";
 import googleSvg from "images/Google.svg";
+import githubSvg from "images/github.svg";
 import Input from "components/Input/Input";
 import ButtonPrimary from "components/Button/ButtonPrimary";
 import NcLink from "components/NcLink/NcLink";
@@ -19,9 +20,9 @@ const loginSocials = [
     icon: facebookSvg,
   },
   {
-    name: "Continue with Twitter",
+    name: "Continue with Github",
     href: "#",
-    icon: twitterSvg,
+    icon: githubSvg,
   },
   {
     name: "Continue with Google",
@@ -37,7 +38,7 @@ const PageSignUp: FC<PageSignUpProps> = ({ className = "" }) => {
         <title>Sign up | CryptoVerse</title>
       </Helmet>
       <LayoutPage
-        subHeading="Welcome to the CryptoVerse Community"
+        subHeading="Join the CryptoVerse community today"
         headingEmoji="🎉"
         heading="Sign up"
       >
@@ -71,21 +72,21 @@ const PageSignUp: FC<PageSignUpProps> = ({ className = "" }) => {
           <form className="grid grid-cols-1 gap-6" action="#" method="post">
             <label className="block">
               <span className="text-neutral-800 dark:text-neutral-200">
-                First name
+                Full Name
               </span>
               <Input
                 type="text"
-                placeholder="Rob"
+                placeholder="FirstName LastName"
                 className="mt-1"
               />
             </label>
             <label className="block">
               <span className="text-neutral-800 dark:text-neutral-200">
-                Last name
+                User Name
               </span>
               <Input
                 type="text"
-                placeholder="Stark"
+                placeholder="UserName"
                 className="mt-1"
               />
             </label>
@@ -95,17 +96,7 @@ const PageSignUp: FC<PageSignUpProps> = ({ className = "" }) => {
               </span>
               <Input
                 type="email"
-                placeholder="example@example.com"
-                className="mt-1"
-              />
-            </label>
-            <label className="block">
-              <span className="text-neutral-800 dark:text-neutral-200">
-               Confirm Email address
-              </span>
-              <Input
-                type="email"
-                placeholder="example@example.com"
+                placeholder="name@example.com"
                 className="mt-1"
               />
             </label>
