@@ -27,9 +27,23 @@ const DashboardSubmitPost = () => {
 
           <Select className="mt-1">
             <option selected disabled>Select Category</option>
-            <option value="Category 1">Category 1</option>
-            <option value="Category 2">Category 2</option>
-            <option value="Category 3">Category 3</option>
+            <optgroup label="Popular Categories">
+              <option value="Crypto Currency">Crypto Currency</option>
+              <option value="MetaVerse">MetaVerse</option>
+              <option value="NFT">NFT</option>
+            </optgroup>
+            <optgroup label="All Categories">
+              <option value="Category 1">Category 1</option>
+              <option value="Category 2">Category 2</option>
+              <option value="Category 3">Category 3</option>
+              <option value="Category 4">Category 4</option>
+              <option value="Category 5">Category 5</option>
+              <option value="Category 6">Category 6</option>
+              <option value="Category 7">Category 7</option>
+              <option value="Category 8">Category 8</option>
+              <option value="Category 9">Category 9</option>
+              <option value="Category 10">Category 10</option>
+            </optgroup>
           </Select>
         </label>
         <label className="block">

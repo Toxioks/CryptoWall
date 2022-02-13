@@ -11,7 +11,7 @@ export interface SectionLargeSliderProps {
 
 const SectionLargeSlider: FC<SectionLargeSliderProps> = ({
   posts,
-  heading = "👋 Welcome back, Nawar",
+  heading = "👋 Welcome back, UserName",
   className = "",
 }) => {
   const [indexActive, setIndexActive] = useState(0);

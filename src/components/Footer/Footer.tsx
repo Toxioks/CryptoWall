@@ -26,10 +26,10 @@ const widgetMenus: WidgetFooterMenu[] = [
     id: "2",
     title: "Support",
     menus: [
-      { href: "#", label: "FAQ" },
-      { href: "#", label: "Contact us" },
-      { href: "#", label: "Create Account" },
-      { href: "#", label: "Forgotten password" },
+      { href: "single/FAQ", label: "FAQ" },
+      { href: "/contact", label: "Contact us" },
+      { href: "/signup", label: "Create Account" },
+      { href: "/forgot-pass", label: "Forgotten password" },
       { href: "#", label: "Payment Methods" },
       { href: "#", label: "Status" },
 
